@@ -1,0 +1,32 @@
+.meetupitem {
+    background-color: #f0f0f0;
+    border-radius: 2px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+    .meetup_body {
+        text-align: center;
+        padding: 15px;
+
+        .meetup_btn {
+            padding: 7px 10px;
+            background: none;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .meetup_btn:hover {
+            transition: all 0.1s ease;
+            background-color: white;
+            color: black;
+        }
+    }
+}
+
+.meetupitem:hover {
+    transition: all 0.1s ease;
+    outline: 2px solid rgb(99, 98, 98);
+}

@@ -1,0 +1,33 @@
+.form_inp {
+  margin-left: 5%;
+  margin-bottom: 7px;
+  label {
+    font-weight: 500;
+  }
+
+  input {
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 2px;
+    width: 90%;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: none;
+    border: 1px solid rgb(73, 72, 72);
+    border-radius: 4px;
+  }
+
+  span {
+    color: red;
+    font-size: 13px;
+    display: none;
+  }
+
+  input:invalid[focused="true"] {
+    border: 1px solid red;
+  }
+
+  input:invalid[focused="true"] ~ span {
+    display: block;
+  }
+}
